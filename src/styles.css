@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: url(assets/bank.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+.form{
+    
+    display: inline-block;
+    width: 27%;
+    height: 445px;
+    background-color: transparent;
+   /* background-color: antiquewhite;
+    background-image: url(assets/money-2696228__340.jpg);*/
+   margin:12% 36%;
+    background-size: 100% 100%;
+    /* border: 2px rgb(144, 154, 236) solid;*/
+}
+.form #button{
+    background-color: blue;
+    border: none;
+    color: rgb(255, 254, 253);
+    transition: 1s;
+    width: 20%;
+    height: 8%;
+    border-radius: 6px
+    }
+.form #button:hover{
+    background-color: green;
+    
+}
+.form-control{
+    margin: 10px 0px 20px 0px;
+}
+.register{
+    padding: 35px 0 0 0;
+    color: #fff;
+}
+.register a{
+    font-size: 18px;
+    color:#2eff03;
+}

@@ -1,0 +1,14 @@
+
+<h1 class="text-info">{{header}}</h1>
+<div class="form ">
+        
+    <input  id="reg_name" placeholder="Name" type="text"class="form-control"> 
+    <input (change)="acnoChange($event)" id="reg_acno" [placeholder]="accPlaceholder" type="tel"class="form-control"> 
+    <input (change)="pswdChange($event)" id="reg_pwd" placeholder="password" type="text"class="form-control">
+    <input id="button" (click)="login()" type="button" value="Login" >
+
+    <div class="register">
+        <label for="">Not a User? Click here to <a href="">Register</a></label>
+    </div>
+
+</div>
